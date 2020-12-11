@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-LABEL maintainer="michael.barry@intlfcstone.com"
-
 RUN apt update
 RUN apt install -y git \
     python \
